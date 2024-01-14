@@ -6,7 +6,7 @@ api_token = {"username": "sandracisneros", "key": "550d4830e11a99da432b270ac1dc7
 ##para conectar a kaggle
 with open("C:/Windows/System32/config/systemprofile/.kaggle/kaggle.json","w") as file:
     json.dump(api_token,file)
-location = "C:/Users/fcisn/Documents/MURUMURU/practica_do1/dataset"
+location = "C:/Users/fcisn/Documents/MURUMURU/practica_do1/data/dataset"
 
 ##validar si la carpeta existe
 if not os.path.exists(location):
